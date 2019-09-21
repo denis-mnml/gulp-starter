@@ -1,0 +1,20 @@
+block vars
+
+doctype html
+html(lang="ru")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		meta(name="description", content="")
+		meta(name="keywords", content="")
+		title= pageTitle
+
+		block styles
+		
+	body
+		include ../includes/header
+		block content
+
+		include ../includes/footer
+		
+		block scripts
